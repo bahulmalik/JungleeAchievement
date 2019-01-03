@@ -1,0 +1,5 @@
+package Achivements;
+
+public enum AwardsList {
+    SHARPSHOOTERAWARD,BRUISERAWARD,VETERANAWARD,BIGWINNERAWARD,LEGEND;
+}
