@@ -8,4 +8,9 @@ public class Legend implements IAward {
         return ((playerStats.getTotalGamesPlayed()>50));
 
     }
+
+    @Override
+    public String toString() {
+        return "Legend";
+    }
 }

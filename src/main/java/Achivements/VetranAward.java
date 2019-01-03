@@ -6,11 +6,13 @@ public class VetranAward implements IAward {
     @Override
     public boolean isEligible(PlayerStats playerStats) {
 
-        if (playerStats.getTotalGamesPlayed() > 1000) {
-            return true;
-        }
-        return false;
+       return  (playerStats.getTotalGamesPlayed() > 1000);
+
     }
 
+    @Override
+    public String toString() {
+        return "Veteran ";
+    }
 }
 

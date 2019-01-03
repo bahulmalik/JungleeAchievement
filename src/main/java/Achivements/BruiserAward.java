@@ -8,4 +8,8 @@ public class BruiserAward implements IAward {
         return playerStats.getTotalAmountDamageDone() >= 500;
     }
 
+    @Override
+    public String toString() {
+        return "Bruiser";
+    }
 }

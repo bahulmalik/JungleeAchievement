@@ -9,5 +9,8 @@ public class SharpShooterAward implements IAward {
                 (playerStats.getNumberOfKillInGame() + playerStats.getNumberOfAssists());
     }
 
-
+    @Override
+    public String toString() {
+        return "Sharp Shooter";
+    }
 }
